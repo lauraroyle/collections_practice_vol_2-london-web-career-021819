@@ -21,14 +21,13 @@ def remove_non_strings(array)
 end
 
 def count_elements(array)
-  array.uniq.each {|i| count = 0
-    array.each {|k| if k == i then count += 1 end}
-      i[:count] = count}
+  array.uniq.each do |i| count = 0
+    array.each do |k| if k == i then count += 1 end 
+    end
+      i[:count] = count
+    end
 end
 
-def merged_data(keys, data)
-  keys.each do |k, v|
-    binding.pry
+def merged_data
 
-  end
 end
